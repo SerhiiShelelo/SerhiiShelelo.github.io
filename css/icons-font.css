@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../fonts/icons.ttf?j6bd7d') format('truetype'),
+    url('../fonts/icons.woff?j6bd7d') format('woff'),
+    url('../fonts/icons.svg?j6bd7d#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-instagram:before {
+  content: "\e904";
+  color: #fff;
+}
+.i-fb:before {
+  content: "\e900";
+  color: #fff;
+}
+.i-twitter:before {
+  content: "\e901";
+  color: #fff;
+}
+.i-insta:before {
+  content: "\e902";
+  color: #fff;
+}
+.i-linkedin:before {
+  content: "\e903";
+  color: #fff;
+  transition: all 1s;
+}
+
+.footer_social a:hover :before{
+	color: #1EACC7;
+}
+.footer_social a:hover{
+	text-decoration: none;
+	border: #1EACC7 2px solid;
+}
+
+/* #1EACC7 */
+/* #FF5656 */
